@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #c1ad87, #2f412b);
+
+}
+
+h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-bar {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.botom-bar {
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  padding: 5px 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10%;
+  margin-bottom: 20px;
+      
+}
+
+
+.paragraf {
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.image-row {
+  display: flex;
+  gap: 30px;
+  justify-content: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.my-img {
+  width: 150px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.my-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
